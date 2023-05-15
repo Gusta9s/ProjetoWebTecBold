@@ -1,0 +1,231 @@
+.modal{
+    width: 300px;
+}
+
+.modal-content{
+    width: 300px;
+    background-color: #212529;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: #FFFFFF; /* Define a cor desejada */
+}
+
+.modal-title {
+    color: #FFFFFF;
+    font-family: "Brush Script MT", cursive;
+    font-size: x-large;
+}
+
+.modal-body {
+    background-color: #212529;
+}
+
+.list-group-item {
+    background-color: #212529;
+    color: #ffffff;
+}
+
+.list-group-item:hover{
+    background-color: #32383e!important;
+}
+
+.video-wrapper {
+    width: 100px;
+    height: 50px;
+    overflow: hidden; /* Para recortar o vídeo caso exceda as dimensões da wrapper */
+}
+  
+.video-wrapper video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Para ajustar o vídeo às dimensões da wrapper */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #9f9f9f;
+    font-family: "arial", sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+h2{
+    font-weight: 600;
+    color: #9f9f9f;
+}
+
+h3{
+    font-family: "Brush Script MT", cursive;
+    font-size: 35px;
+    color: #9f9f9f;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    display: block;
+    background-color: #212529;
+}
+
+.container1{
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section.module p{
+    margin-bottom: 40px;
+}
+
+.section.module:last-child{
+    margin-bottom: 0;
+}
+
+.section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.section.module.content{
+    padding: 40px 0;
+    background-color: #0058af;
+}
+
+.module-parallax-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh!important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.module-parallax-1 {
+    background-image: url("../img/o-liquido-fluindo-cria-um-design-de-padrao-de-onda-vibrante-gerado-por-ia.jpg");
+}
+
+.module-parallax-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh!important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-image: url("../img/um-lago-de-montanha-com-montanhas-ao-fundo.jpg");
+}
+
+.module-parallax-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh!important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-image: url("https://img.freepik.com/fotos-gratis/vibrante-padrao-de-nervuras-foliares-de-cor-verde-brilhante-gerada-por-ia_188544-10084.jpg?w=1060&t=st=1684100987~exp=1684101587~hmac=1702c4a0080dfcd401658e5d7aaee522d9cbc1c51ac2f68f9c0010362dcf9680");
+}
+
+section.module-parallax-1:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    background: -o-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    background: webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+}
+
+section.module-parallax-1 h2{
+    background: linear-gradient(to right, #f2ff00, #ff0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 50px;
+    z-index: 50;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    opacity: 1; /* Valor de opacidade ajustado */
+}
+
+section.module-parallax-2:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    background: -o-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    background: webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+}
+
+section.module-parallax-2 h2{
+    color: rgb(75, 75, 77);
+    text-align: center;
+    font-size: 50px;
+    z-index: 50;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+    opacity: 1;
+}
+
+section.module-parallax-3:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    background: -o-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    background: webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+}
+
+section.module-parallax-3 h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+    z-index: 50;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+    opacity: 1;
+}
